@@ -9,6 +9,12 @@
 #     result.append(result[x-1]+usr_num)
 # print(result)
 
+# # Another way:
+# result_second = []
+# for i in range(1,usr_len + 1):
+#     result_second.append(usr_num*i)
+# print(result_second)
+
 # # Exercise 2
 # usr_str = input("Input string")
 # result = usr_str[0]
