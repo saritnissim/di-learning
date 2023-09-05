@@ -25,3 +25,10 @@
 #         result += char
 #         pointer += 1
 # print(result)
+
+# # Another way:
+# result_2 = usr_str[0]
+# for char in usr_str:
+#     if result_2[-1] != char:
+#         result += char
+# print(result_2)
