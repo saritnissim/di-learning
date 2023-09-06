@@ -36,6 +36,9 @@
 # print(my_list)
 
 # # Exercise 5
+# # Use a for loop to print all numbers from 1 to 20, inclusive.
+# # Using a for loop, that loops from 1 to 20(inclusive), print out every element which has an even index.
+
 # for num in range(1, 21):
 #     print(num)
 
@@ -52,7 +55,7 @@
 
 # Exercise 7
 # usr_input = input("Input your favorite fruit(s) (one or several fruits). Separate the fruits with single space")
-# fruit_list = usr_input.split(" ")
+# fruit_list = usr_input.split()
 # usr_fruit = input("Input a name of any fruit")
 # if usr_fruit in fruit_list:
 #     print("You chose one of your favorite fruits! Enjoy!")

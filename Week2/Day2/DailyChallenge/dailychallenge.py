@@ -1,8 +1,6 @@
 # # Exercise 1
-# usr_num_str = input("Input number")
-# usr_len_str = input("Input length")
-# usr_num = int(usr_num_str)
-# usr_len = int(usr_len_str)
+# usr_num = int(input("Input number"))
+# usr_len = int(input("Input length"))
 
 # result = [usr_num]
 # for x in range(1,usr_len) :

@@ -9,6 +9,16 @@ elif len(user_str) > 10:
 else: 
     print("perfect string")
     print(f"First letter {user_str[0]} and last letter {user_str[-1]}")
-    for x in range(len(user_str) + 1):
-        print(user_str[0:x])
-    print("Shuffle Bonus " + shuffle(user_str))
+    # for x in range(len(user_str) + 1):
+    #     print(user_str[0:x])
+    new_string = ""
+    for letter in user_str:
+        new_string += letter
+        print(new_string)
+    
+    string_list = list(user_str)
+    shuffle(string_list)
+
+    shuffled_string = ''.join(string_list)
+
+    print("Shuffle Bonus " + shuffled_string)

@@ -1,6 +1,5 @@
 # # Exercise 1: 
-# for x in range(5):
-#     print("Hello World")
+# print("Hello World\n" * 5)
 
 # # Exercise 2:
 # print(99**3*8)
@@ -44,7 +43,7 @@
 
 # # Exercise 9:
 # height = input("What is your height in inches ")
-# height_cm = int(height) * 2.54
+# height_cm = float(height) * 2.54
 
 # if height_cm > 145:
 #     print("You are tall enough to ride.")
