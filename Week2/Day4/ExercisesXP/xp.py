@@ -51,11 +51,11 @@ import random
 # magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
 
 # def show_magicians():
-#     print(magician_names)
+#     print(','.join(magician_names))
 # # Write a function called make_great() that modifies the original list of magicians by adding the phrase "the Great" to each magician’s name.
 # def make_great():
 #     for i in range(len(magician_names)):
-#         magician_names[i] = magician_names[i] + " the Great"
+#         magician_names[i] = magician_names[i] + " the Great "
 
 # make_great()
 # show_magicians()
