@@ -1,18 +1,12 @@
-# Challenge 1 : Sorting
-# Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
-#     Use List Comprehension
+# # Challenge 1 : Sorting
+# # Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
+# #  Use List Comprehension
 # def sort_alpha(*args):
-#     output = []
-#     for arg in args:
-#         pass
+#     input_list = list(args)
+#     sorted_words = sorted(input_list)
+#     return ', '.join(sorted_words)
 
-
-
-# Example:
-
-# Suppose the following input is supplied to the program: without,hello,bag,world
-# Then, the output should be: bag,hello,without,world
-
+# print(sort_alpha('without', 'hello', 'bag', 'world'))
 
 # # Challenge 2 : Longest Word
 # # Write a function that finds the longest word in a sentence. If two or more words are found, return the first longest word. (Characters such as apostrophe, comma, period count as part of the word (e.g. O’Connor is 8 characters long).
